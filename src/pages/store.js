@@ -1,11 +1,11 @@
 import * as React from 'react'
 import NavBar from '../components/navbar'
 
-const AboutPage = () => {
+const StorePage = () => {
     return (
         <main>
             <NavBar />
-            <h1>About Us</h1>
+            <h1>Store</h1>
             <p>Come for the pulls, stay for the party!</p>
         </main>
     )
@@ -14,10 +14,10 @@ const AboutPage = () => {
 //Head API lets you define metadate and add page titles
 export const Head = () => (
     <>
-    <title>About Me</title>
+    <title>Store</title>
     <meta name="description" content="your description"/>
     </>
 )
 
 
-export default AboutPage
+export default StorePage
